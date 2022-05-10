@@ -1,0 +1,63 @@
+.boxInfo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+        
+}
+.boxInfo1{
+    outline: 3px solid #042f55;
+    width: 400px;
+    height: auto;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 2.8vh;
+    padding: 1vh;
+    color: white;
+    background-color: rgb(5 25 42);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71);     
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71);
+
+
+}
+
+.boxInfo2{
+    outline: 3px solid #042f55;
+    width: 400px;
+    height: auto;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 2.8vh;
+    color: white;
+    background-color: rgb(5 25 42);
+    padding: 1vh;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71);
+
+}
+.boxInfo3{
+    outline: 3px solid #042f55;
+    width: 400px;
+    height: auto;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 2.8vh;
+    color: white;
+    background-color: rgb(5 25 42);
+    padding: 1vh;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 3px rgba(0,0,0,0.71);
+
+}
+button{
+    margin-left: 129px;
+    margin-top: 10px;
+}
+.botao2{
+    margin-top:20px
+}
