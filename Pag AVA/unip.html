@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unip</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            background-color: hsl(207deg 57% 49%);
+            padding: 10px;
+        }
+        .header li{
+            list-style: none;
+            margin: 10px;
+
+        }
+        .header a{
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+        }
+        .header > ul{
+            display: flex;
+            background: rgba(116, 112, 112, 0.296);
+            width: 470px;
+        }
+        .header img{
+            max-width: 100%;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        section div{
+            height: 130px;
+            flex: 1 1 270px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .cAcademicos{
+            background: red;
+        }
+        .calendario{
+            background: #428eff;
+        }
+        .bibliotecas{
+            background: #8400ff;
+        }
+        .comunidades{
+            background: #064709;
+        }
+        .mAluno{
+            background: orange;
+        }
+        section div img{
+            width: 50px;
+            height: 50px;
+        }
+        section div p, img{
+            margin: auto auto;
+            color: #fff;
+        }
+        footer{
+            margin-top: 15%;
+            text-align: center;
+            bac
+        }
+        #select{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <select name="select" id="select">
+            <option value="valor1">USUARIO</option>
+            <option value="valor1">CURSOS</option>
+            <option value="valor1">USUArio</option>
+        </select>
+        <ul>
+            <a href="#"><li id="unip">UNIP</li></a>
+            <a href="#"><li>CONTEUDO ACADEMICOS</li></a>
+            <a href="#"><li>BIBLIOTECAS</li></a>
+            <a href="#"><li>MURAL DOS ALUNOS</li></a>
+        </ul>
+        <img src="unknown.png" alt="">
+    </header>
+    <section>
+        <div class="cAcademicos">
+            <img src="professor.png" alt="">
+            <p>CONTEUDOS ACADEMICOS</p>
+        </div>
+        <div class="calendario">
+            <img src="calendario.png" alt="">
+            <p>CALENDARIO</p>
+        </div>
+        <div class="bibliotecas">
+            <img src="agenda.png" alt="">
+            <p>BIBLIOTECAS</p>
+        </div>
+        <div class="comunidades">
+            <img src="pessoas.png" alt="">
+            <p>COMUNIDADES</p>
+            
+        </div>
+        <div class="mAluno">
+            <img src="agendinha.png" alt="">
+            <p>MURAL DO ALUNO</p> 
+        </div>
+    </section>
+    <footer>
+        <img src="ava.png" alt="">
+    </footer>
+</body>
+</html>
